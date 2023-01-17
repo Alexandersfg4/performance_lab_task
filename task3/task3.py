@@ -31,6 +31,5 @@ if __name__ == "__main__":
     dict_tests = json.loads(content_tests)
     dict_values = json.loads(content_values)
     output = make_report(dict_tests, dict_values)
-    print(output)
     with open("report.json", "w") as report:
         report.write(json.dumps(output, indent=4))
