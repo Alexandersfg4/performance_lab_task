@@ -2,3 +2,6 @@
 /task3/values.json
 poetry.lock
 pyproject.toml
+/.idea
+/task2/file1.txt
+/task2/file2.txt
